@@ -1,7 +1,8 @@
 # YouTube to Notion Tool
 
 This tool converts YouTube videos into text using Whisper for speech-to-text and extracts summaries with Llama, automatically saving the results to a Notion database.
-[](https://youtu.be/4gRKq7Wg6Mg)
+[![Demo Video](https://github.com/user-attachments/assets/02491dcb-05c6-4b99-8bcc-062d5334ecd1)](https://youtu.be/4gRKq7Wg6Mg)
+
 
 ## Project Structure
 

@@ -1,0 +1,6 @@
+llama_cpp_python==0.2.89
+openai==1.42.0
+openai-whisper==20231117
+whisper==1.0.0
+youtube-dl==2021.12.17
+yt-dlp==2024.8.6

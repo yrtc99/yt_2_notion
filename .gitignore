@@ -1,0 +1,16 @@
+# 忽略特定文件
+mistral-7b-instruct-v0.1.Q4_K_S.gguf
+
+# 忽略特定類型的文件
+*.env
+
+# 忽略特定目錄
+__pycache__/
+downloaded_audio/
+
+# 忽略特定目錄下的所有文件,但保留目錄
+logs/*
+!logs/.gitkeep
+
+# 忽略特定路徑的文件
+build/debug/app.exe

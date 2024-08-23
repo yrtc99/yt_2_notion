@@ -7,12 +7,7 @@ This tool converts YouTube videos into text using Whisper for speech-to-text and
 ## Project Structure
 
 ```
-/home/n56101903/STTnotion
-|-- __pycache__
-|   |-- config.cpython-38.pyc
-|   |-- notion_handler.cpython-38.pyc
-|   |-- whisper_handler.cpython-38.pyc
-|   `-- youtube_handler.cpython-38.pyc
+/STTnotion
 |-- config.py
 |-- your_ideal_model.gguf
 |-- downloaded_audio

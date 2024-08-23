@@ -14,6 +14,7 @@ This tool converts YouTube videos into text using Whisper for speech-to-text and
 |   |-- whisper_handler.cpython-38.pyc
 |   `-- youtube_handler.cpython-38.pyc
 |-- config.py
+|-- your_ideal_model.gguf
 |-- downloaded_audio
 |   `-- yt_vid_you_download.wav
 |-- main.py
@@ -53,7 +54,9 @@ NOTION_DATABASE_ID=your_notion_database_id_here
     
 2. Ensure you have FFmpeg installed.
 3. Set up your `.env` file with the Notion API key and database ID.
-4. Run the program:
+4. Download your ideal language model(.gguf file), like LLama. Put the model file under STTnotion folder.
+5. Edit MODEL_PATH in llama_handler.py.
+6. Run the program:
     
     ```bash
     streamlit run main.py

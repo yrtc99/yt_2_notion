@@ -1,6 +1,7 @@
 # YouTube to Notion Tool
 
 This tool converts YouTube videos into text using Whisper for speech-to-text and extracts summaries with Llama, automatically saving the results to a Notion database.
+[demo video](https://youtu.be/4gRKq7Wg6Mg)
 
 ## Project Structure
 
@@ -13,8 +14,7 @@ This tool converts YouTube videos into text using Whisper for speech-to-text and
 |   `-- youtube_handler.cpython-38.pyc
 |-- config.py
 |-- downloaded_audio
-|   `-- What\\\\ is\\\\ LLM\\\\357\\\\274\\\\237\\\\ AI\\\\ Concepts\\\\ Explained\\\\ in\\\\ 1\\\\ Minute!.wav
-|-- ggml-base.en.bin
+|   `-- yt_vid_you_download.wav
 |-- main.py
 |-- notion_handler.py
 |-- requirements.txt
@@ -128,12 +128,12 @@ import yt_dlp as youtube_dl
 ### Notion API Setup
 
 1. Create a Notion integration to obtain the API key.
+    ![image](https://github.com/user-attachments/assets/84ae1650-4f7b-4574-89b6-74e9140e9b26)
     
-    ![image.png](yt2notion_en_readme%202292949d9dff4cebb5c13df46e2112bc/image.png)
     
 2. Add the integration to your Notion database to retrieve the database ID.
-    
-    ![image1.png](yt2notion_en_readme%202292949d9dff4cebb5c13df46e2112bc/image1.png)
+    ![image1](https://github.com/user-attachments/assets/b42abdf2-0449-433e-b49b-c5a31fd28520)
+
     
 3. To find your Notion database ID, locate the URL of your database:
     
@@ -145,8 +145,8 @@ import yt_dlp as youtube_dl
 ### Property Settings in Notion
 
 If you encounter errors such as “Title is not a property that exists” or “Content is not a property that exists”, ensure the properties are correctly defined in your Notion database. Update the `notion_handler.py` with the correct property names:
+![image2](https://github.com/user-attachments/assets/1899b0b8-e59a-4c48-a632-5b369fb415f9)
 
-![image2.png](yt2notion_en_readme%202292949d9dff4cebb5c13df46e2112bc/image2.png)
 
 Original Code:
 

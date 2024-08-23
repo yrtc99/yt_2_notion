@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 
 # 设置模型路径
-MODEL_PATH = "/home/n56101903/STTnotion/mistral-7b-instruct-v0.1.Q4_K_S.gguf"
+MODEL_PATH = "/your/path/to/your/model/STTnotion/mistral-7b-instruct-v0.1.Q4_K_S.gguf" #download your ideal model, I use mistral-7b-instruct-v0.1.Q4_K_S.gguf
 
 # 初始化 LLaMA 模型
 llm = Llama(model_path=MODEL_PATH, n_ctx=2048, n_batch=512)
